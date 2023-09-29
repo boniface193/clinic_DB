@@ -1,4 +1,5 @@
 -- database is created
+
 CREATE DATABASE clinic;
 
 CREATE TABLE patients (id serial PRIMARY KEY, name VARCHAR(225), date_of_birth date);
